@@ -2,7 +2,7 @@
     "addPath": "",
     "cameraPara": "webar_test/arnft/data/camera_para.dat",
     "container": {
-      "create": false,
+      "create": true,
       "containerName": "",
       "canvasName": ""
     },
