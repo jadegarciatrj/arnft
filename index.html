@@ -64,7 +64,7 @@
             // 
             //    ATENCIÓN: CAMBIAR AL NOMBRE DEL MARCADOR (JPG O PNG) ADECUADO 
             //
-            ARnft.init(width, height, [["arnft/nft/jack_spades"]], [["jack_spades.jpg"]], "config.json", true)
+            ARnft.init(width, height, [["arnft/nft/jack_spades"]], [["jack_spades"]], "config.json", true)
                 .then((nft) => {
                     document.addEventListener("containerEvent", function (ev) {
                         let canvas = document.getElementById("canvas");
@@ -104,7 +104,7 @@
                         //    ATENCIÓN: CAMBIAR LA ESCALA (3er parámetro, 200) AL VALOR QUE SE REQUIERA 
                         //
                         // Set object in scene, nft to find, scale, plane to draw video on, mostrar sólo en detección o no
-                        nftAddTJS.addVideo("arvideo", "playa", 200, imgConfig, false);
+                        nftAddTJS.addVideo("arvideo", "jack_spades", 200, imgConfig, false);
 
                         const tick = () => {
                             sceneThreejs.draw();
