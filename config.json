@@ -1,6 +1,6 @@
 {
     "addPath": "",
-    "cameraPara": "webar_test/arnft/data/camera_para.dat",
+    "cameraPara": "arnft/data/camera_para.dat",
     "container": {
       "create": false,
       "containerName": "",
@@ -27,7 +27,7 @@
       "loadingMessage": "Cargando grandes ideas..."
     },
     "stats": {
-      "createHtml": true
+      "createHtml": false
     },
     "oef": true
   }
