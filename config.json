@@ -21,7 +21,7 @@
     "loading": {
       "create": true,
       "logo": {
-        "src": "Cargando.gif",
+        "src": "data/Cargando.gif",
         "alt": "arNFT.js logo"
       },
       "loadingMessage": "Cargando grandes ideas..."
